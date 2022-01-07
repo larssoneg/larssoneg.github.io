@@ -1,0 +1,14 @@
+name: "larssoneg"
+navbar:
+  title: "Erik Larsson"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "CV"
+      href: cv.html
+    - text: "Analyses"
+    - text: "Faith"
+    - text: "Contact"
+      href: about.html
+    - text: "Probability"
+      href: probability-distributions.html

@@ -1,0 +1,23 @@
+---
+title: "Curriculum Vitae"
+---
+
+```{r}
+# Months
+ra_months <- seq.Date(from = as.Date("2013-06-01"), to = as.Date("2016-07-01"), by = "month")
+ds_months <- seq.Date(from = as.Date("2016-08-01"), to = as.Date("2021-08-01"), by = "month")
+
+# Timeline data
+timeline_data <- data.frame(time = c(ra_months, ds_months),
+                            job  = c(rep("Research Assistant", length(ra_months)),
+                                     rep("Data Scientist", length(ds_months)))
+) %>%
+dplyr::mutate(job = as.factor(job))
+ 
+
+# Timeline
+plot_ly(data = timeline_data, x = ~ time, y = ~job, color = ~job) %>%
+add_bars() %>% 
+  layout(barmode = "stack")
+
+```

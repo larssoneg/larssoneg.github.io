@@ -1,0 +1,11 @@
+---
+title: "My Website"
+---
+
+Welcome to my personal website!
+
+I am a graduate student in the Department of Statistics at Virginia Tech. Before coming to Virginia Tech, I spent eight years working at the Federal Reserve Board in a variety of research and data science positions. I am generally interested in the application of statistics to time series forecasting problems in economics and finance.
+
+Interested visitors may view a more comprehensive overview of my background in the **CV** tab. From time to time, I will update the **Analyses** tab with short, informal statistical analyses of topics of interest to me. 
+
+In my free time, I am interested in cycling, reading, and volunteering at my church. On the **Faith** tab, interested readers may view a collection of short pieces related to theology that I have written.
